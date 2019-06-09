@@ -10,7 +10,8 @@
 
 <script type="text/javascript" src="./dist/js/iplayer.js"></script>
 <script>
-    var iplayer = IPlayer('video', {
+    var iplayer = new iplayer({
+        container : '#video',
         poster : './dist/img/wdm.jpg',
         volume : 0.6,
         autoplay : true,
