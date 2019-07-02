@@ -5,3 +5,4 @@
 
 ### 参考资料：
 https://github.com/Chimeejs/chimee-player/blob/master/doc/preface.md
+https://www.jianshu.com/p/e65c246beac1

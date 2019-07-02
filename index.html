@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>iplayer视频播放器</title>
+    <link href="./dist/favicon.ico" rel="shortcut icon">
 </head>
 <body>
 <!--页面入口-->
-<div id="video" style="width: 600px; height: 400px;"></div>
+<!--<video poster='./dist/img/wdm.jpg' src="http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4" id="video" style="width: 600px; height: 400px;"></video>-->
+
+<div id="video"></div>
 
 <script type="text/javascript" src="./dist/js/iplayer.js"></script>
 <script>
@@ -15,7 +18,8 @@
         volume : 0.6,
         autoplay : true,
         loop : true,
-        video: 'http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4'
+        source: 'http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4'
+        // source: 'http://localhost:8000/dist/play.mp4'
     });
 </script>
 </body>
